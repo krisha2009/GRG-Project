@@ -1,0 +1,214 @@
+
+
+.nav-container{
+position: absolute;
+width: 61px;
+height: 40px;
+
+
+/* or 26px */
+
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+}
+
+.wrapper{
+    width: 1679px;
+    margin:0;
+}
+
+nav{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    height :72px;
+}
+nav ul {
+    display:flex;
+}
+nav .logo{
+position: absolute;
+width: 10px;
+height: 10px;
+right:35px;
+    }
+nav .nav-item{
+  list-style-type: style none;
+  margin-left:250px; 
+  display:inline;
+   
+}
+nav .nav-item .nav-link{
+position: absolute;
+size: 14px;
+width: 50px;
+height: 60px;
+font-family: 'Druk Wide';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+display: flex;
+align-items: center;
+text-align: center;
+}
+nav .nav-item .nav-link1{
+position: absolute;
+width: 100px;
+height: 60px;
+
+font-family: 'Druk Wide';
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 183%;
+left:380px;
+display: flex;
+align-items: center;
+text-align: center;
+}
+nav .nav-item .nav-link2{
+    position: absolute;
+width: 70px;
+height: 60px;
+
+font-family: 'Druk Wide';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 183%;
+
+left:530px;
+display: flex;
+align-items: center;
+text-align: center;
+}
+nav .nav-item .nav-link3{
+position: absolute;
+width: 65px;
+height: 60px;
+font-family: 'Druk Wide';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 183%;
+display: flex;
+align-items: center;
+text-align: center;
+left:640px;
+}
+
+.header-container{
+    background: black;
+    display: flex;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-container header .hero-image{
+    position: absolute;
+width: 1032px;
+height: 700px;
+
+top:-50px;
+size: 50px;
+    }
+.header-container header .hero-image img{
+    transition:300ms;
+}
+.header-container header .hero-image img:hover{
+    transform:rotate(-6deg)
+}
+.header-container header .vector{
+position: absolute;
+width: 200px;
+height: 150px;
+top: 450px;
+size: 50px;
+}
+.header-container header .info-block{
+position: absolute;
+width: 933px;
+height: 92px;
+size: 20px;
+top:600px;
+left:40px
+}
+.header-container header .photo2{
+position: absolute;
+width: 316px;
+height: 700px;
+left:680px;
+top:150px;
+size: 20px;
+    }
+.header-container header .photo3{
+position: absolute;
+width: 316px;
+height: 256px;
+left:570px;
+top:550px;
+size: 20px;
+}
+.header-container header .motorcycle{
+position: absolute;
+width: 183.28px;
+height: 177.41px;
+right:900px;
+top:170px;
+}
+.header-container header .motorcycle img:hover{
+    transform:rotate(180deg);
+}
+.header-container header .gold{
+position: absolute;
+width: 375px;
+height: 562px;
+left: 750px;
+top:0px;
+}
+.header-container header .speed{
+    position: absolute;
+    width: 305px;
+    height: 148px;
+    left:850px;
+    top:250px;
+    
+}
+.header-container header .power{
+position: absolute;
+width: 305px;
+height: 148px;
+left:850px;
+top:350px;
+
+}
+.header-container header .torque{
+position: absolute;
+width: 305px;
+height: 148px;
+left:850px;
+top:450px;
+}
+.header-container header .capacity{
+    position: absolute;
+    width: 305px;
+    height: 148px;
+    left:850px;
+    top:550px;
+}
+/* .header-container header .rectangle373{
+position: absolute;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+z-index:100;
+width: 183px;
+height: 549px;
+left:850px;
+top:250px;
+background: linear-gradient(90deg, #060507 0%, #060507 100%);
+} */
